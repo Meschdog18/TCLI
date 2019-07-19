@@ -12,7 +12,7 @@ A Twitter command line interface, interact with the twitter api via terminal
 /tweet* - Enter your tweet after typing /tweet* | ex /tweet*Hi from my terminal
 
 # Authentication
-In the current programs state your going to have to generate a bearer token and enter it where its labed var is in the program (How Do that here - https://developer.twitter.com/en/docs/basics/authentication/guides/bearer-tokens.html),than just put your Consumer Key ,Consumer Secret, Access Token, Token Secret in their respective labed var
+In the current programs state your going to have to generate a bearer token and enter it where its labed var is in the program (How Do that here - https://developer.twitter.com/en/docs/basics/authentication/guides/bearer-tokens.html ),than just put your Consumer Key ,Consumer Secret, Access Token, Token Secret in their respective labed var
 # How To Use
 
 Make sure TCLI.go and Structs.go are in the same folder than use go run *.go
