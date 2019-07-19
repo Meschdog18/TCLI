@@ -13,7 +13,7 @@ import(
 	"github.com/dghubble/oauth1"
 )
 
-const bearertoken = "Bearer AAAAAAAAAAAAAAAAAAAAANU1%2FQAAAAAA8OBO6Ork%2FaZ1J5WsCN3%2FlJz5rAc%3DeffR5ylodCcIii1DbMaKgajiAfpy9v7kCr5lo33pWgRgJ9R6mW"
+const bearertoken = "Bearer <bearertoken>"
 
 func main(){
 fmt.Println("____________________________________")
@@ -54,8 +54,8 @@ func input(){
 	}
 }
 func SendTweet(message string){
-	    config := oauth1.NewConfig("CGHuZ49V7WDW0QH2OtHYKQpXg", "e9qZd6thK7xgesfBTWVfHCwdfb88R4gS2gQSxguiawkPMAmnE9")
-    token := oauth1.NewToken("1071866365089366017-fEfKkWuS0XVqZcBCsgbMk96MgpQjP3", "t0rCThjCxCc3ArErQlSvQ6qb7tu6eAYzqZv4wyCgdRwOb")
+	    config := oauth1.NewConfig("<consumer key>", "<consumer secret>")
+    token := oauth1.NewToken("<access token>", "<token secret>")
     httpClient := config.Client(oauth1.NoContext,token)
     path := "https://api.twitter.com/1.1/statuses/update.json"+"?status="+url.QueryEscape(message)
     fmt.Println(path)
