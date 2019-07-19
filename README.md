@@ -13,7 +13,7 @@ A Twitter command line interface, interact with the twitter api via terminal
 
 # How To Use
 
-Make sure TCLI.go and Structs.go are in the same folder than use *go run *.go
+Make sure TCLI.go and Structs.go are in the same folder than use go run *.go
 
 # Additional Info
 
