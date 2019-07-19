@@ -11,6 +11,10 @@ A Twitter command line interface, interact with the twitter api via terminal
 
 /tweet* - Enter your tweet after typing /tweet* | ex /tweet*Hi from my terminal
 
+# How To Use
+
+Make sure TCLI.go and structs.go are in the same folder than use *go run *.go
+
 # Additional Info
 
 With the current way the program is writen, you will require credentials only available to twitter users with api access, 
