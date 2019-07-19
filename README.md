@@ -14,4 +14,4 @@ A Twitter command line interface, interact with the twitter api via terminal
 # Additional Info
 
 With the current way the program is writen, you will require credentials only available to twitter users with api access, 
-so most use cases i'm assuming is just new twitter devs who just want to see an example or want to test and make sure there credentials work. 
+so most use cases i'm assuming is just new twitter devs who just want to see an example or want to test and make sure their credentials work. 
